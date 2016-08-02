@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Sketch</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>Sketch</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://www.sketchapp.com/appcast3.xml</string>
+		<key>USER_AGENT</key>
+		<string>Sketch/3.3.2 Sparkle/e759c10</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>Testing</string>
+			</array>
+			<key>category</key>
+			<string>Graphic Design</string>
+			<key>description</key>
+			<string>Sketch gives you the power, flexibility and speed you always wanted in a lightweight and easy-to-use package. Finally you can focus on what you do best: Design.</string>
+			<key>developer</key>
+			<string>Bohemian Coding</string>
+			<key>display_name</key>
+			<string>Sketch</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.foigus.munki.Sketch</string>
+</dict>
+</plist>
